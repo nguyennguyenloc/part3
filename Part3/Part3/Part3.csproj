@@ -3567,6 +3567,16 @@
     <Content Include="Assets\vendor\jquery\jquery.slim.min.map" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\part3.data\part3.data.csproj">
+      <Project>{3344A411-9E09-4451-AAC0-6CEEA96588F5}</Project>
+      <Name>part3.data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Part3.Service\Part3.Service.csproj">
+      <Project>{6D640D70-4963-491A-9407-66DED2A0E404}</Project>
+      <Name>Part3.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
